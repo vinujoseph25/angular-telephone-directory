@@ -1,27 +1,68 @@
-# TelephoneDirectory
+# Angular Telephone Directory
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
+A frontend application for managing and presenting telephone-directory information, built with Angular and TypeScript.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project demonstrates component-based Angular application development, client-side routing, form handling, and a structured frontend architecture for a directory-style application.
 
-## Code scaffolding
+## Technology Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular** 8.1
+- **TypeScript** 3.4
+- **RxJS** 6.4
+- **Angular Router**
+- **Angular Forms**
+- **Jasmine / Karma** for unit testing
+- **Protractor** for end-to-end testing
 
-## Build
+## Engineering Focus
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Component-based frontend architecture
+- TypeScript application development
+- Client-side routing
+- Form-driven user interfaces
+- Reactive programming with RxJS
+- Testable Angular application structure
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Install dependencies
 
-## Running end-to-end tests
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Start the development server
 
-## Further help
+```bash
+npm start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The application is served locally by the Angular development server.
+
+### Build
+
+```bash
+npm run build
+```
+
+### Run unit tests
+
+```bash
+npm test
+```
+
+### Run linting
+
+```bash
+npm run lint
+```
+
+## Project Status
+
+This is a **legacy Angular 8 project** retained as an example of earlier enterprise-style frontend development. The dependency versions are intentionally preserved from the original implementation and should be upgraded before using the project as a modern production baseline.
+
+## Why This Project Matters
+
+The project highlights practical experience with Angular, TypeScript, reusable UI patterns, routing, forms, and frontend application structure—foundational skills for building larger business and enterprise applications.
